@@ -136,6 +136,7 @@ public class CameraLivingView extends CameraView {
             SopCastLog.w(TAG, "Doesn't support audio aec");
             return AUDIO_AEC_ERROR;
         }
+
         if(!isCameraOpen()) {
             SopCastLog.w(TAG, "The camera have not open");
             return CAMERA_ERROR;
