@@ -1,7 +1,9 @@
-package com.android.live;
+package com.android.live.test;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.android.live.R;
 import com.laifeng.sopcastsdk.ui.CameraLivingView;
 
 public class PartActivity extends Activity {

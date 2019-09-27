@@ -1,4 +1,4 @@
-package com.android.live;
+package com.android.live.test;
 
 import android.Manifest;
 import android.app.Activity;

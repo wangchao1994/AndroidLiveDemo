@@ -1,4 +1,4 @@
-package com.android.live;
+package com.android.live.test;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.android.live.PortraitActivity;
+import com.android.live.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

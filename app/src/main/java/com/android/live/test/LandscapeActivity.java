@@ -1,4 +1,4 @@
-package com.android.live;
+package com.android.live.test;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -18,6 +18,7 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.android.live.R;
 import com.android.live.ui.MultiToggleImageButton;
 import com.laifeng.sopcastsdk.camera.CameraListener;
 import com.laifeng.sopcastsdk.configuration.AudioConfiguration;

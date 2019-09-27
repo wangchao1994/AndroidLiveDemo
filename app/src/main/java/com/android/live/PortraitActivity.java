@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.android.live.test.PermissionsManager;
 import com.android.live.ui.MultiToggleImageButton;
 import com.laifeng.sopcastsdk.camera.CameraListener;
 import com.laifeng.sopcastsdk.configuration.AudioConfiguration;
@@ -40,7 +41,8 @@ public class PortraitActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_portrait);
-
+        //增加权限检查
+        PermissionsManager.checkVideoRecordPermission(this);
         initEffects();
         initViews();
         initListeners();
